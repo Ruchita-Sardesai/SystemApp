@@ -803,16 +803,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -821,6 +811,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to create client without name and display name" enabled="true">
@@ -854,16 +854,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -872,6 +862,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify update client with duplicate Client Name" enabled="true">
@@ -905,16 +905,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -923,6 +913,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to update client without name and display name" enabled="true">
@@ -956,16 +956,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -974,6 +964,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to update client with clientId Does not exists " enabled="true">
@@ -1025,6 +1025,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to add duplicate redirect-uris for the same client" enabled="true">
@@ -2508,16 +2518,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2526,6 +2526,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify Application creation with wrong application Type" enabled="true">
@@ -2560,16 +2570,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2578,6 +2578,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to create Application without name and display name" enabled="true">
@@ -2612,16 +2622,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2630,6 +2630,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify update Application with duplicate Application Name" enabled="true">
@@ -2664,16 +2674,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2682,6 +2682,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify update Application with wrong application Type" enabled="true">
@@ -2716,16 +2726,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2735,57 +2735,15 @@
             <stringProp name="variableName">ClientName</stringProp>
           </RandomVariableConfig>
           <hashTree/>
-        </hashTree>
-        <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify update Application with wrong application Type" enabled="true">
-          <boolProp name="HTTPSampler.postBodyRaw">true</boolProp>
-          <elementProp name="HTTPsampler.Arguments" elementType="Arguments">
-            <collectionProp name="Arguments.arguments">
-              <elementProp name="" elementType="HTTPArgument">
-                <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-  &quot;name&quot;: &quot;C_${ApplicationName}&quot;,&#xd;
-  &quot;description&quot;: &quot;Des_${ApplicationName}&quot;,&#xd;
-  &quot;applicationType&quot;: &quot;${WrongApplicationType}&quot;,&#xd;
-  &quot;displayName&quot;: &quot;DisplayName_${ApplicationName}&quot;,&#xd;
-  &quot;createdDate&quot;: &quot;2020-04-20T11:09:47.527Z&quot;&#xd;
-}</stringProp>
-                <stringProp name="Argument.metadata">=</stringProp>
-              </elementProp>
-            </collectionProp>
-          </elementProp>
-          <stringProp name="HTTPSampler.domain">${URL}</stringProp>
-          <stringProp name="HTTPSampler.port">${Portno}</stringProp>
-          <stringProp name="HTTPSampler.protocol">${Http}</stringProp>
-          <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${Applications}/${ApplicationID}</stringProp>
-          <stringProp name="HTTPSampler.method">PUT</stringProp>
-          <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
-          <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
-          <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
-          <boolProp name="HTTPSampler.DO_MULTIPART_POST">false</boolProp>
-          <stringProp name="HTTPSampler.embedded_url_re"></stringProp>
-          <stringProp name="HTTPSampler.connect_timeout"></stringProp>
-          <stringProp name="HTTPSampler.response_timeout"></stringProp>
-        </HTTPSamplerProxy>
-        <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
+              <stringProp name="-1146597565">${Response200}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
-          <hashTree/>
-          <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
-            <stringProp name="maximumValue">9999999</stringProp>
-            <stringProp name="minimumValue">1111</stringProp>
-            <stringProp name="outputFormat"></stringProp>
-            <boolProp name="perThread">false</boolProp>
-            <stringProp name="randomSeed"></stringProp>
-            <stringProp name="variableName">ClientName</stringProp>
-          </RandomVariableConfig>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user is not able to update Application without name and display name" enabled="true">
@@ -2809,8 +2767,8 @@
           <stringProp name="HTTPSampler.port">${Portno}</stringProp>
           <stringProp name="HTTPSampler.protocol">${Http}</stringProp>
           <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-          <stringProp name="HTTPSampler.path">${Clients}/${ClientID}</stringProp>
-          <stringProp name="HTTPSampler.method">POST</stringProp>
+          <stringProp name="HTTPSampler.path">${Applications}/${ApplicationID}</stringProp>
+          <stringProp name="HTTPSampler.method">PUT</stringProp>
           <boolProp name="HTTPSampler.follow_redirects">true</boolProp>
           <boolProp name="HTTPSampler.auto_redirects">false</boolProp>
           <boolProp name="HTTPSampler.use_keepalive">true</boolProp>
@@ -2822,7 +2780,7 @@
         <hashTree>
           <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
             <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
+              <stringProp name="-1146597565">${Response200}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
             <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
@@ -2901,16 +2859,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-201" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -2919,6 +2867,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">PermissionName</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user s not able to add Duplicate a Permission/Scope to an Application" enabled="true">
@@ -2952,16 +2910,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-201" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -3003,16 +2951,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-201" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -3255,16 +3193,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-201" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -3273,6 +3201,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">Claim</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify user s not able to add Duplicate Claim to an Application" enabled="true">
@@ -3303,16 +3241,6 @@
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </HTTPSamplerProxy>
         <hashTree>
-          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-201" enabled="true">
-            <collectionProp name="Asserion.test_strings">
-              <stringProp name="-1146597534">${Response201}</stringProp>
-            </collectionProp>
-            <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
-            <boolProp name="Assertion.assume_success">false</boolProp>
-            <intProp name="Assertion.test_type">16</intProp>
-          </ResponseAssertion>
-          <hashTree/>
           <RandomVariableConfig guiclass="TestBeanGUI" testclass="RandomVariableConfig" testname="Random Variable" enabled="true">
             <stringProp name="maximumValue">9999999</stringProp>
             <stringProp name="minimumValue">1111</stringProp>
@@ -3321,6 +3249,16 @@
             <stringProp name="randomSeed"></stringProp>
             <stringProp name="variableName">Claim</stringProp>
           </RandomVariableConfig>
+          <hashTree/>
+          <ResponseAssertion guiclass="AssertionGui" testclass="ResponseAssertion" testname="Response Assertion-200" enabled="true">
+            <collectionProp name="Asserion.test_strings">
+              <stringProp name="-1146597565">${Response200}</stringProp>
+            </collectionProp>
+            <stringProp name="Assertion.custom_message"></stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <boolProp name="Assertion.assume_success">false</boolProp>
+            <intProp name="Assertion.test_type">16</intProp>
+          </ResponseAssertion>
           <hashTree/>
         </hashTree>
         <HTTPSamplerProxy guiclass="HttpTestSampleGui" testclass="HTTPSamplerProxy" testname="N: Verify User is not able to Add a Secret to an Application when ApplicationID does not exists" enabled="true">
