@@ -20,9 +20,9 @@
     <hashTree>
       <Arguments guiclass="ArgumentsPanel" testclass="Arguments" testname="User Defined Variables" enabled="true">
         <collectionProp name="Arguments.arguments">
-          <elementProp name="/iam-sys/clients" elementType="Argument">
-            <stringProp name="Argument.name">/iam-sys/clients</stringProp>
-            <stringProp name="Argument.value">Clients</stringProp>
+          <elementProp name="Clients" elementType="Argument">
+            <stringProp name="Argument.name">Clients</stringProp>
+            <stringProp name="Argument.value">/iam-sys/clients</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="cors" elementType="Argument">
@@ -55,9 +55,9 @@
             <stringProp name="Argument.value">iam:system:admin iam-sys:company-account:view iam-sys:company-account:manage iam-sys:app-svc:manage</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
-          <elementProp name="/iam-sys/applications" elementType="Argument">
-            <stringProp name="Argument.name">/iam-sys/applications</stringProp>
-            <stringProp name="Argument.value">Applications</stringProp>
+          <elementProp name="Applications" elementType="Argument">
+            <stringProp name="Argument.name">Applications</stringProp>
+            <stringProp name="Argument.value">/iam-sys/applications</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="permissions" elementType="Argument">
@@ -366,7 +366,7 @@
               <stringProp name="-1146597565">${Response200}</stringProp>
             </collectionProp>
             <stringProp name="Assertion.custom_message"></stringProp>
-            <stringProp name="Assertion.test_field">Assertion.response_data</stringProp>
+            <stringProp name="Assertion.test_field">Assertion.response_code</stringProp>
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
